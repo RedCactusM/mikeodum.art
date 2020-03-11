@@ -162,9 +162,15 @@ main {
     margin: 0 auto;
 }
 
-.about img, .books img, .games img, .commissions img, .books img, .shop img, .gallery img, .sketch img {
+.books img, .games img, .commissions img, .books img, .shop img, .gallery img, .sketch img {
     margin-bottom: 30px;
     width: 87%;
+    /*box-shadow: -5px 5px 2px rgba(0,0,0, 0.5);*/
+}
+
+.about img {
+    margin-bottom: 0px;
+    width: 100%;
     /*box-shadow: -5px 5px 2px rgba(0,0,0, 0.5);*/
 }
 
@@ -175,7 +181,7 @@ main {
 
 .imageboxAbout, .imageboxBook {
     text-align: center;
-    width: 40%;
+    width: 45.4%;
 }
 
 .imageboxGames {
@@ -185,8 +191,9 @@ main {
 
 .imageboxText {
     text-align: left;
-    padding: 0px 25px 0px 25px;
+    padding: 45px 35px 35px 50px;
     width: 40%;
+    background-color: white;
 }
 
 footer {
@@ -254,8 +261,8 @@ h2 {
 h3 {
     text-align: left;
     color: #7b7b7b;
-    font-size: 1.2em;
-    line-height: 150%;
+    font-size: 1.05em;
+    line-height: 214%;
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
 }
@@ -296,7 +303,7 @@ hr {
 }
 
 .imageboxTextDark h1 {
-    color: white;
+    color: #1f2532;
 }
 
 .shadow {
